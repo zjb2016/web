@@ -1,0 +1,77 @@
+    
+    * { margin:0; padding:0;}
+    ul, li { list-style:none;}
+    a { text-decoration:none;}
+
+     .container{background-color: #FFFF66;float:left;margin-bottom: 20px;height: 235px;}
+
+      .big-word{position: relative;padding:70px 0px 30px 100px;margin-bottom: 0px;}
+      .big-word img{position: absolute;left:60px;bottom: 25px; width: 100px;height: 100px; }
+      .big-word h1{font-size:50px;position:relative;left: 60px;}
+      .big-word p{font-size:18px;color:#303030;font-family:Georgia;margin-top: 5px;position:relative;left: 60px;}
+      
+	  .content h1{color:#303030; font-size:36px; font-weight:bold; font-family:"微软雅黑";}
+	  .content img{float:left;}
+	  
+	  .p0{font-size:40px; color:#181818; font-weight:bold; float:left; }
+	  .p1{font-size:30px; color:#181818; font-weight:bold; margin:10px; float:left; }
+	  .p2{font-size:20px; color:#333; margin:20px; font-family:"黑体"; }
+	  
+
+      .rightbar{padding-right: 20px;float: right;width:400px;height: 30px;}
+      .cart{display: inline;float: right;width: 200px;height:40px;position: relative;right:20px;bottom: 40px;}
+      .cart img{width: 40px;height: 40px;}
+      .cart p{display: inline;position:relative;bottom: 10px;padding-left: 20px;}
+
+       .user{display: inline;float: left;position: relative;bottom: 50px;}
+       .user img{height: 50px;width: 50px;}
+       
+       .wrap1{display:none;}
+       .cart:hover .wrap1{display:block;
+                          background-color: white;
+                          border:solid #D8D8D8 1px;border-radius: 3px;padding: 15px;
+                          position:absolute;
+                          z-index: 2;
+                          height: 100px; }
+
+      .navbar{
+              float: left;
+              background-color: #303030;
+              border:solid #303030 thick;
+              border-radius: 7px;
+              width: 1300px;
+              height: 43px;
+              position: relative;
+              bottom: 30px;
+             }
+        .navbar ul{float: left;padding-top: 10px;padding-left: 50px}
+               
+       .nav li {float: left;padding-right: 40px;height: 30px;}
+       .nav li a{float: left;color: yellow;padding-bottom: 2px;height: 25px;width: 70px;}
+       .nav li a:hover{float: left;background-color: yellow;color: #303030;border-radius: 5px;}
+      
+       .search{float: left;margin-left:400px;display: inline;height:30px;margin-top: 9px;}
+       .search input{border: solid 1px #D8D8D8;border-radius: 3px;height:28px;width: 180px; box-shadow: 0px 0px 9px black;} 
+       .search button{background-color: #D8D8D8;border: solid 1px #D8D8D8;border-radius: 3px;height:28px;width: 80px;color:#303030;} 
+       .search button:hover{background-color: yellow;border: solid 1px yellow;border-radius: 2px;height:28px;width: 80px;}
+	                        .footer{width:1340px;background-color:black;height:200px; font-family: '微软雅黑';}
+                     .footer-left{width: 500px;float: left;color: #808080;margin: 20px;position: relative;left: 50px;top:9px;}
+                     .footer-left a img{width: 60px;height: 60px;position: relative;left: -15px;}
+                   
+                     .footer-left h1{font-size:120px;}
+                     .footer-left h1{font-size:50px;}
+                     
+
+                     .footer-right{float:left;width: 720px;color: #808080;margin-top: 40px;}
+                     .footer-right h3{font-size:28px;}
+                     .footer-right div{padding: 15px}
+                     .footer-right p{margin-top: 5px;}
+
+                     .about{float: left;border-right:1px solid #505050;border-left:1px solid #505050; }
+                     .after{float: left;border-right:1px solid #505050; }
+                     .friend{float: left;border-right:1px solid #505050; }
+
+                     .certification{float: left;width:250px;font-size:10px;margin-top: 15px;margin-left: 5px; }
+                     .footer-right a{text-decoration: none;color: #505050 }
+                     .footer-right a:hover{text-decoration: none;color: gold; } 
+       

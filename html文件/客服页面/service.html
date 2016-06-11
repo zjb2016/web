@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系客服</title>
+	<link type="text/css" rel="stylesheet" href="service.css">
+	<link rel="stylesheet" type="text/css" href="../标题栏/title.css">
+	<link rel="stylesheet" type="text/css" href="../页脚/footer.css">
+	<link type="image/x-icon" rel="shortcut icon" href="image/icon2.png">
+	<script type="text/javascript" src="service.js"></script>
+</head>
+<body>
+	<!--navbar-->
+ <div class="container">
+        <div class="big-word">
+              <img src="../标题栏/1.png" >
+              <h1 >香蕉网</h1>
+              <p>we hope make your a better life</p> 
+        </div> 
+           <div class="rightbar">
+                <p class="user"  style="color:black;font-style:initial;"><img src="../标题栏/banana.png"><a style="color:black;position:relative;bottom: 10px;" href="../个人中心/userZone.html">你好 用户</a></p>
+                <div class="cart">             
+                     <ul>
+                       <li><img src="../标题栏/cart.png" /><a style="color:black;font-style:initial;position: relative;top:-10px;"href="##">购物车</a></li>
+                        
+                          <li>
+                            <div class="wrap1"><a>there is nothing in your cart!</a>
+                         
+                           </div>
+                           </li>
+                        
+                     </ul>
+                </div>  
+         </div>
+       
+          <div class="navbar " >　
+            <ul class="nav">
+                <li >
+                    <a href="../首页/Index.html" style="text-align: center;">首页</a>
+                </li>
+                <li>
+                    <a href="../买车页面/purchase.html">我要买车</a>
+                </li>
+                <li>
+                    <a href="../卖车页面/sellBike.html">我要卖车</a>
+                </li>
+                <li>
+                   <a href="../订单管理/orderManage.html">订单管理</a>
+                </li>
+                  <li>
+                   <a href="../登录页面/login.html">关于我们</a>
+                </li>
+            </ul>
+              
+              <div class="search">
+                   <form action="##" class="navbar-form navbar-right" rol="search">
+             
+                         <input type="text" class="form-control" placeholder="山地自行车">
+              
+                         <button type="submit" class="btn btn-danger" >搜索</button>
+                
+                    </form>
+              </div>  
+
+       
+        
+        
+    
+           </div>
+
+</div>  
+
+<div class="ques">
+	<div class="main">
+	<div class="ques_title">
+		
+		<p><span class="ques_index">1</span>请选择问题类型</p>
+	</div>
+	<div class="ques_type">
+		<dl>
+			<dt class="subcatetitle">信息问题</dt>
+			<dd class="subcate">
+				<ul>
+					<li><a href="##">信息被删除</a></li>
+					<li><a href="##">信息被返回修改</a></li>
+					<li><a href="##">信息被判分类不当</a></li>
+					<li><a href="##">信息不显示/无法刷新</a></li>
+					<li><a href="##">投诉举报虚假信息</a></li>
+					<li><a href="##">冒用手机号码</a></li>
+					<li><a href="##">其它信息冒用</a></li>
+					<li><a href="##">申述被投诉</a></li>
+				</ul>
+			</dd>
+			<dt class="subcatetitle">账户问题</dt>
+			<dd class="subcate">
+				<ul>
+					<li><a href="##">账户被冻结</a></li>
+					<li><a href="##">更换认证</a></li>
+					<li><a href="##">找回密码</a></li>
+					<li><a href="##">账号被盗</a></li>
+					<li><a href="##">被判为职介</a></li>
+					<li><a href="##">被判为二手商家</a></li>
+				</ul>
+			</dd>
+			<dt class="subcatetitle">合作及其他</dt>
+			<dd class="subcate">
+				<ul>
+					<li><a href="##">合作咨询</a></li>
+					<li><a href="##">在线增值</a></li>
+					<li><a href="##">系统问题</a></li>
+					<li><a href="##">团购、二手、帮帮等</a></li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+    <div class="ques_title">
+		<p><span class="ques_index">2</span>请描述您遇到的问题</p>
+	</div>
+	<div class="ques_detail">
+		<span>信息编号</span>
+		<input id="inforid" name="ques_id" type="text">
+		<span class="hint">如何查看信息编号</span>
+		<br />
+		<textarea id="desc"cols="50" rows="10" placeholder="请具体描述您的问题，字数在15-400字">
+		</textarea>
+		<br />
+		<span>上传图片</span><input type="file"> 
+	</div>
+	<div class="ques_title">
+		
+		<p><span class="ques_index">3</span>请选择客服回复的方式</p>
+	</div>
+	<div class="service_method">
+		<div class="method">
+			<ul class="tab_title">
+				<li class="tab" onmouseover="webMes()"><span>站内信</span></li>
+				<li class="tab" onmouseover="phoneMes()"><span>手机短信</span></li>
+			</ul>
+			<div class="content">
+			<div class="webmes" id="webmessage" ">
+			<p class="hint">没有用户账号？请点击<a href="##">注册</a></p>
+			<div class="user_name">
+			<span>账户名</span><input type="text" placeholder="用户名/电子邮箱">
+			</div>
+			<div class="password">
+			<span>密&nbsp&nbsp&nbsp码</span><input type="text" >
+			</div>
+		</div>
+			<div class="phonemes" id="phonemessage" >
+				<div class="phonenum">
+					<span>手机号</span><input type="text" >
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="footer">
+	<div class="footer-left">
+		<h1>香蕉网</h1>
+		<p>BananaBike for your good life</p>
+
+	             <a href="#"><img src="../页脚/face.png"></a>
+                 <a href="#"><img src="../页脚/ins.png"></a>
+                 <a href="#"><img src="../页脚/google.png"></a>
+                 <a href="#"><img src="../页脚/pin.png"></a>
+	</div>
+	<div class="footer-right">
+
+		<div class="about">
+			<h3 >关于香蕉</h3>
+			<p class="text-left"><a href="#">客户端下载</a></p>
+			<p class="text-left"><a href="#">联系我们</a></p>
+		</div>
+
+
+		<div class="after">
+			<h3 >售后保障</h3>
+			<p class="text-left"><a href="../知识帮助/help.html">在线帮助</a></p>
+			<p class="text-left"><a href="../客服页面/service.html">投诉维权</a></p>
+		</div>
+
+
+
+		<div class="friend">
+			<h3 >友情链接</h3>
+			<p class="text-left"><a href="#">恋车网</a></p>
+			<p class="text-left"><a href="#">瓜子二手车直卖</a></p>
+		</div>
+
+		<div class="certification">
+			<p class="arc-info">Copyright 2015 www.BananaBike.com All Rights Reserved</p>
+			<p class="arc-info">京ICP备15053955号  ICP证151071号 </p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+    
+    * { margin:0; padding:0;}
+    ul, li { list-style:none;}
+    a { text-decoration:none;}
+
+     .container{background-color: #FFFF66;margin-bottom: 20px;height: 235px;}
+
+      .big-word{position: relative;padding:70px 0px 30px 100px;margin-bottom: 0px;}
+      .big-word img{position: absolute;left:60px;bottom: 25px; width: 100px;height: 100px; }
+      .big-word h1{font-size:50px;position:relative;left: 60px;}
+      .big-word p{font-size:18px;color:#303030;font-family:Georgia;margin-top: 5px;position:relative;left: 60px;}
+      
+
+      .rightbar{padding-right: 20px;float: right;width:400px;height: 30px;}
+      .cart{display: inline;float: right;width: 200px;height:40px;position: relative;right:20px;bottom: 40px;}
+      .cart img{width: 40px;height: 40px;}
+      .cart p{display: inline;position:relative;bottom: 10px;padding-left: 20px;}
+
+       .user{display: inline;float: left;position: relative;bottom: 50px;}
+       .user img{height: 50px;width: 50px;}
+       
+       .wrap1{display:none;}
+       .cart:hover .wrap1{display:block;
+                          background-color: white;
+                          border:solid #D8D8D8 1px;border-radius: 3px;padding: 15px;
+                          position:absolute;
+                          z-index: 2;
+                          height: 100px; }
+
+      .navbar{
+              float: left;
+              background-color: #303030;
+              border:solid #303030 thick;
+              border-radius: 7px;
+              width: 1300px;
+              height: 43px;
+              position: relative;
+              bottom: 30px;
+             }
+        .navbar ul{float: left;padding-top: 10px;padding-left: 50px}
+               
+       .nav li {float: left;padding-right: 40px;height: 30px;}
+       .nav li a{float: left;color: yellow;padding-bottom: 2px;height: 25px;width: 70px;}
+       .nav li a:hover{float: left;background-color: yellow;color: #303030;border-radius: 5px;}
+      
+       .search{float: left;margin-left:400px;display: inline;height:30px;margin-top: 9px;}
+       .search input{border: solid 1px #D8D8D8;border-radius: 3px;height:28px;width: 180px; box-shadow: 0px 0px 9px black;} 
+       .search button{background-color: #D8D8D8;border: solid 1px #D8D8D8;border-radius: 3px;height:28px;width: 80px;color:#303030;} 
+       .search button:hover{background-color: yellow;border: solid 1px yellow;border-radius: 2px;height:28px;width: 80px;} 
+       

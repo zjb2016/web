@@ -1,0 +1,5 @@
+banana 对应注册保存本地信息实验
+html   对应网站bananna
+product manage 对应产品管理
+web3  购物车及订单管理
+solr  solr实现全文搜索，jstl运用

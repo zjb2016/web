@@ -1,0 +1,275 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="shortcut icon" href="title/icon2.png" type="image/x-icon">
+     
+      <link rel="stylesheet" href="dist/slippry.css">
+      <link rel="stylesheet" type="text/css" href="../标题栏/title.css" /> 
+      <link rel="stylesheet" type="text/css" href="../页脚/footer.css">
+<style>
+
+ *{margin:0;padding: 0;}
+ 
+  .all{}
+  .shangbian{width: 1340px; float: left;}
+  .zuobian{margin:2px;float: left; width:300px;border:gray solid 1px; }
+           
+    .fastsold{ padding: 5px;height:130px;width: 290px;}
+    .fastsold h2{font-family: '微软雅黑';border-bottom: 1px gray solid;padding:5px 0px 10px 15px;}
+    .fastsold h5{color: gray;padding: 2px;font-family: '微软雅黑';}
+    .fastsold form{padding: 10px;}
+     
+     .btn-sub{background-color: #D00000;border: solid 1px #D00000;border-radius: 3px;height:30px;width: 80px;color:white;}
+     .btn-sub:hover{background-color: #E80000;border: solid 1px #E80000;border-radius: 2px;height:34px;width: 84px;} 
+      #phone{border: solid 1px gray;border-radius: 3px;height:35px;width: 150px; }
+  
+  .fastbuy {padding: 5px;border:}
+  .fastbuy h2{font-family: '微软雅黑';border-bottom: 1px gray solid;padding:5px 0px 10px 15px;}
+  .fastbuy h5{color: gray;padding: 2px;font-family: '微软雅黑';}
+
+  .selectLI{width: 75px;height:30px;float: right;border-radius: 5px;background-color: #383838;margin: 3px;}
+  .selectLI a {text-decoration: none;color: white;position: relative;left:3px;top:5px;}
+  .selectLI:hover{background-color: #ffcc33;}
+  .selectLI:active{background-color: #D00000;}
+  .fastbuy p {float: left;width: 298px;padding-top: 10px;font-family: '微软雅黑';} 
+
+  .youbian{
+           float: left;
+           padding: 1em;
+          
+          }
+  .htmleaf-content {    
+    
+    height: 604px;
+    width: 1000px;    
+
+   }     
+  .items li a img{
+    height:500px;
+    width: 900px;
+                  }
+  .end-title{font-family: '微软雅黑';text-align: center;color: #383838;padding: 20px;}
+  .end img{margin-left: 130px;}
+
+</style>
+</head>
+
+<body>
+   <div class="container">    <!--标题栏-->
+        <div class="big-word">
+              <img src="../标题栏/1.png">
+              <h1 >香蕉网</h1>
+              <p>we hope make your a better life</p>
+             
+        </div> 
+          <div class="rightbar">
+                <p class="user"  style="color:black;font-style:initial;"><img src="../标题栏/banana.png"><a style="color:black;position:relative;bottom: 10px;" href="../个人中心/userZone.html">你好 用户</a></p>
+                <div class="cart">             
+                     <ul>
+                       <li><img src="../标题栏/cart.png" /><a style="color:black;font-style:initial;position: relative;top:-10px;"href="##">购物车</a></li>
+                        
+                          <li>
+                            <div class="wrap1"><a>there is nothing in your cart!</a>
+                         
+                           </div>
+                           </li>
+                        
+                     </ul>
+                </div>  
+         </div>
+       
+          <div class="navbar " >　
+            <ul class="nav">
+                <li >
+                    <a href="../首页/Index.html" style="text-align: center;">首页</a>
+                </li>
+                <li>
+                    <a href="../买车页面/purchase.html">我要买车</a>
+                </li>
+                <li>
+                    <a href="../卖车页面/sellBike.html">我要卖车</a>
+                </li>
+                <li>
+                   <a href="../订单管理/orderManage.html">订单管理</a>
+                </li>
+                  <li>
+                   <a href="../登录页面/login.html">关于我们</a>
+                </li>
+            </ul>
+              
+              <div class="search">
+                   <form action="solrSearch.do" method="post" class="navbar-form navbar-right" role="search">
+             
+                         <input type="text" class="form-control" placeholder="山地自行车" name="queryStr">
+              
+                         <button type="submit" class="btn btn-danger" >搜索</button>
+                
+                    </form>
+              </div>  
+    </div>
+</div>
+
+ <div class="all">
+  
+   <div class="shangbian">
+
+      <div class="zuobian">
+    
+        <div class="fastsold">
+           <h2 >免费卖车</h2>
+      	   <h5 >5分钟发布卖车信息，买家直接联系车主 </h5>
+                  
+                 <form>
+                      <input id="phone" type="text" placeholder="请输入手机号码"></input> 
+                      <input class="btn-sub" type="submit" ></input>          
+                   </form>
+        </div>  
+   
+        <div class="fastbuy">
+    	       <h2>我要买车</h2>
+             <h5 >当面交易，质量保证</h5>
+       
+           <p >车型 </p>
+              <ul class="selectUL" type="none">
+                <li class="selectLI"><a href="#home" class="selectA">公路车</a></li>
+                <li class="selectLI"><a href="#news" class="selectA">山地车</a></li>
+                <li class="selectLI"><a href="#contact" class="selectA">折叠车</a></li>
+                <li class="selectLI"><a href="#about" class="selectA">其他</a></li>
+               </ul>
+           <p >品牌 </p>
+               <ul class="selectUL" type="none">
+                 <li class="selectLI"><a href="#home" class="selectA">捷安特</a></li>
+                 <li class="selectLI"><a href="#news" class="selectA">美利达</a></li>
+                 <li class="selectLI"><a href="#contact" class="selectA">阿米尼</a></li>
+                  <li class="selectLI"><a href="#about" class="selectA">其他</a></li>
+                 </ul>
+           <p >新旧 </p>
+              <ul class="selectUL" type="none">
+                 <li class="selectLI"><a href="#home" class="selectA">5成以下</a></li>
+                 <li class="selectLI"><a href="#news" class="selectA">6-7成</a></li>
+                 <li class="selectLI"><a href="#contact" class="selectA">8-9成</a></li>
+                 <li class="selectLI"><a href="#about" class="selectA">9成以上</a></li>
+                 </ul>
+           <p >价格 </p>
+              <ul class="selectUL" type="none">
+                 <li class="selectLI"><a href="#home" class="selectA">100元以下</a></li>
+                 <li class="selectLI"><a href="#news" class="selectA">100-200元</a></li>
+                 <li class="selectLI"><a href="#contact" class="selectA">200-300元</a></li>
+              </ul>
+              <ul class="selectUL" type="none">
+                <li class="selectLI"><a href="#home" class="selectA">300-400元</a></li>
+                <li class="selectLI"><a href="#news" class="selectA">400-500元</a></li>
+                <li class="selectLI"><a href="#contact" class="selectA">500元以上</a></li>
+               </ul>
+        </div>
+      </div>
+      
+	    <div class="youbian">     
+         <div class="htmleaf-content">
+           
+           <ul id="pictures-demo">
+                  <li title="自行车保养常识 ">
+                   <a href='#link'> <img src="img/1.jpg" alt="demo1_1"></a>
+                  </li>
+                  <li title="香蕉网-一个自由交易平台">
+                     <a href='#link'><img src="img/2.jpg"  alt="demo1_2"></a>
+                  </li>
+                  <li title="环法自行车大赛你看了吗">
+                     <a href='#link'><img src="img/3.jpg" alt="demo1_3"></a>
+                  </li>
+                  <li title="学会保护你的自行车">
+                    <a href='#link'> <img src="img/4.jpg" alt="demo1_4"></a>
+                  </li>
+             </ul>
+          
+          </div>
+      </div> 
+
+    </div>
+
+
+       <div class="end">
+         <div class="end-title">
+         <br><br><br><br>
+         <h1>good service</h1><br>
+          <hr>
+          </div>
+
+          <a href="../知识帮助/help.html" ><img src="img/在线帮助.png" alt=""/></a>
+          <img src="img/购车.png" alt=""/> 
+          <img src="img/客服.png" alt=""/> 
+          <img src="img/广告.png" alt=""/> 
+       
+       </div>
+ </div>
+ <br> <br> <br>
+  <div class="footer">
+            <div class="footer-left">
+               <h1>香蕉网</h1>
+               <p>BananaBike for your good life</p>
+                 <a href="#"><img src="../页脚/face.png"></a>
+                 <a href="#"><img src="../页脚/ins.png"></a>
+                 <a href="#"><img src="../页脚/google.png"></a>
+                 <a href="#"><img src="../页脚/pin.png"></a>
+             
+            </div>
+
+            <div class="footer-right">
+
+                   <div class="about">
+                   <h3 >关于香蕉</h3>
+                   <p class="text-left"><a href="#">客户端下载</a></p>
+                   <p class="text-left"><a href="#">联系我们</a></p>
+                   </div>
+
+
+                    <div class="after">
+                   <h3 >售后保障</h3>
+                   <p class="text-left"><a href="../知识帮助/help.html">在线帮助</a></p>
+                   <p class="text-left"><a href="../客服页面/service.html">投诉维权</a></p>
+                   </div>
+
+
+
+                   <div class="friend">
+                   <h3 >友情链接</h3>
+                   <p class="text-left"><a href="#">恋车网</a></p>
+                   <p class="text-left"><a href="#">瓜子二手车直卖</a></p>
+                   </div>
+                      
+                      <div class="certification">
+                      <p class="arc-info">Copyright 2015 www.BananaBike.com All Rights Reserved</p>
+                      <p class="arc-info">京ICP备15053955号  ICP证151071号 </p>
+                      </div>
+            </div></div>
+
+<script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+  <script src="dist/slippry.min.js"></script>
+  <script>
+    jQuery('#pictures-demo').slippry({
+      // general elements & wrapper
+      slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
+
+      // options
+      adaptiveHeight: false, // height of the sliders adapts to current slide
+      captions: false, // Position: overlay, below, custom, false
+
+      // pager
+      pager: false,
+      
+      // controls
+      controls: false,
+      autoHover: false,
+
+      // transitions
+      transition: 'kenburns', // fade, horizontal, kenburns, false
+      kenZoom: 120,
+      speed: 2000 // time the transition takes (ms)
+    });
+  </script>
+
+
+</body>
+</html>

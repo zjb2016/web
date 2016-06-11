@@ -1,0 +1,199 @@
+.ques{
+	width:1000px;
+	height:1150px;
+	background-color: #fbfbfb;
+	margin:10px auto 0 auto;
+	font-family: 微软雅黑;
+    border:1px solid #e2e2e2;
+    padding:32px 0 0 0;
+
+}
+.main{
+	margin:0 0 0 70px;
+}
+.ques_type{
+	width:800px;
+	margin-bottom: 50px;
+	margin-right: 110px;
+	margin-top: 10px;
+	background-color: white;
+	height:200px;
+	position:relative;
+	border:1px solid #dedede;
+	padding:32px 0 12px 19px;
+}
+ul{
+	list-style: none;
+}
+li{
+	float:left;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.ques_index{
+	width:50px;
+	height:50px;
+	font-size: 36px;
+	background-color: #ffff66;
+	border-radius: 50%;
+	margin-left:0;
+	text-align: center;
+	color:white;
+    display:block;
+}
+.ques_index>p{
+	height:50px;
+}
+.ques_detail,.service_method{
+   width:1000px;
+   float:clear;
+}
+.ques_title{
+	width:1000px;
+	margin-left:0px;
+
+}
+.ques_title p{
+	font-size: 20px;
+}
+.subcate{
+	width:800px;
+	}
+
+.subcatetitle{
+	color:#585858;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 7px;
+	text-align: right;
+	vertical-align: top;
+	width:70px;
+}
+.subcate{
+	display: inline-block;
+	margin:0 0 30px 80x;
+	vertical-align: top;
+	width:660px;
+}
+.subcate li{
+	font-size: 14px;
+	line-height: 30px;
+	height:30px;
+	margin:0 0 10px 10px;
+	color:585858;
+	background-color: #efefef;
+	display: inline-block;
+	vertical-align: top;
+	padding:0 5px 0 5px;
+	width:140px;
+}
+.subcate ul{
+	display:block;
+
+}
+.ques_detail{
+	width:800px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-right: 110px;
+}
+#inforid{
+border-color: #c5c6c7 #e4e4e4 #e8e9eb #c5c6c7;
+border-style: solid;
+border-width: 1px;
+font-size: 14px;
+height:14px;
+padding-top: 7px;
+width:165px;
+margin-left: 10px;
+}
+.hint{
+	font-size: 10px;
+	color:#585858;
+}
+#desc{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:80px;
+}
+.tab_title ul{
+	display: block;
+}
+.tab_title li{
+	width:100px;
+	height:40px;
+	font-size: 20px;
+}
+.service_method{
+	border:1px solid #e2e2e2;
+	width:800px;
+	height:250px;
+	margin-top:15px;
+}
+.tab{
+	text-align: center;
+	border-right:1px solid #dbdde1;
+	display: inline-block;
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+
+}
+.tab_title{
+	width:800px;
+	height: 38px;
+	border-bottom: 1px solid #dbdde1;
+	background-color: #f8f8f8;
+}
+.footer{
+	margin-top: 50px;
+	margin-left:0px;
+}
+.content{
+	margin-top:40px;
+	margin-left:30px;
+	padding-top:5px;
+	width:500px;
+	height:150px;
+}
+.webmes a{
+	color:black;
+	font-weight: 700;
+}
+.webmes .hint{
+	color:#d1d1d1;
+}
+.webmes input{
+	margin-top: 5px;
+	width:250px;
+	height:30px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.user_name{
+	width: 500px;
+	height:50px;
+}
+.webmes{
+	display: none;
+}
+.phonenum input{
+	margin-top: 20px;
+	width:250px;
+	height:30px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.tab_title li:hover{
+	background-color: white;
+	color:balck;
+	border-top:#ffff66 2px solid;
+	border-bottom: none;
+}
+.ques_type li:hover{
+	background-color: #ffff66;
+	color:balck;
+}

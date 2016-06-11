@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+	body {background-image:url(6.jpg); 
+	      background-repeat: no-repeat;
+	      background-size:cover;
+	      font-style:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu ;
+	      margin-left:auto;}
+
+
+	h1{ 
+		
+		font-size:60px;
+	    }
+
+ 
+	.div1
+	   {
+            opacity:0.8;
+	   	 position:relative;
+	   	 left:340px;
+
+	 background: white;
+	 border: 0 none;
+	 border-radius: 3px;
+	 box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	 padding: 30px 30px;
+	
+	box-sizing: border-box;
+	width: 30%;
+	margin: 5% 10%;
+	     }
+
+
+	 .text2{width: 100px;}
+       
+     p,h3,h6{text-align: center;
+     }
+     input{height:30px;width:220px;border:1px solid #EEE;padding:4px 4px 0 4px;border-radius: 3px;border-top: 0px;margin-bottom: 10px;}
+
+     input#submit{width:80px;
+	              height:40px;
+	              color:white;
+	              background-color:gray;
+	             
+	              
+	              position:relative;
+	              left:20px;
+	              bottom: 15px;
+	              padding:10;
+	              cursor:pointer;}
+
+     input#submit:hover, input#submit:active, input#submit:focus
+     {background-color:yellow;
+     	color:#ffcc33;}
+
+    #sandbox{
+    	font-size:18px;
+       }
+
+       /*flash*/
+    .animated{animation-duration: 2s; 
+              }
+
+     @keyframes flash{
+
+     	from,20%,50%,to{opacity: 1;}
+     	10%,30%,70%{opacity: 0;}
+     }
+     @keyframes bounce{
+        rom, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+
+     }
+     .flash{animation-name: flash;}
+     .bounce{animation-name: bounce;}
+
+</style>
+
+<title>注册界面</title>
+</head>
+<body>
+
+<div class="div0">
+   <h1 align="center"  >注册<br/><span  id="sandbox" class="animated flash">sign up here</span></h1>
+   
+   
+</div>
+   <div class='div1'>
+
+    <form action="createNew" method="post"  align="center"  >
+    
+     手机: <input type="text" name="phone" class="txt1" placeholder="phone number"><br/><br/>
+     密码: <input type="text" name="password" class="txt1" placeholder="password"><br/><br/>
+     验证码：<input type="text" name="try" class="txt2" placeholder="capchar"><br/><br/> 
+     <div><img src="验证1.jpg"  width=100px height=50px align="le"  />
+     
+            <input type="submit" value="注册" id="submit" class="animated bounce"/> </div>
+          
+     </div>
+
+  </form>
+</body>
+</html>
